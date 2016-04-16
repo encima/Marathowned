@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000"
+    tools:context="uk.co.encima.marathowned.MainActivity">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:background="@drawable/roundedbutton"
+        android:textColor="#fff"
+        android:onClick="btnClick"
+        android:text="Funky Folk"
+        android:tag="@string/folk"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:textColor="#fff"
+        android:onClick="btnClick"
+        android:background="@drawable/roundedbutton"
+        android:layout_centerVertical="true"
+        android:text="Raucous Rock"
+        android:tag="@string/rock"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn3"
+        android:textColor="#fff"
+        android:onClick="btnClick"
+        android:background="@drawable/roundedbutton"
+        android:layout_alignParentBottom="true"
+        android:text="Ignacious Indie"
+        android:tag="@string/indie"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn4"
+        android:background="@drawable/roundedbutton"
+        android:onClick="btnClick"
+        android:textColor="#fff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="Beastly Ballads"
+        android:tag="@string/ballad"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn5"
+        android:background="@drawable/roundedbutton"
+        android:onClick="btnClick"
+        android:textColor="#fff"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btn6"
+        android:layout_alignStart="@+id/btn6"
+        android:text="Meaty Motivation"
+        android:tag="@string/motiv"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn6"
+        android:background="@drawable/roundedbutton"
+        android:onClick="btnClick"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="Trance Dance"
+        android:tag="@string/dance"/>
+
+</RelativeLayout>

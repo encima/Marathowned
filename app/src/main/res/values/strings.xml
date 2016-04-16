@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Marathowned</string>
+    <string name="folk">https://open.spotify.com/user/encima/playlist/4mCvRF5O0KVlYEapZ9kdhm</string>
+    <string name="rock">https://open.spotify.com/user/encima/playlist/0JAXgY6Bd1d0JErUeiXPcy</string>
+    <string name="ballad">https://open.spotify.com/user/encima/playlist/0IsLxxlZd68YWqRYnhbCPh</string>
+    <string name="dance">https://open.spotify.com/user/encima/playlist/31yEM6yQb5RCJHSkYI8rvQ</string>
+    <string name="indie">https://open.spotify.com/user/encima/playlist/6icOBZMQKOlt49WwzEyflC</string>
+    <string name="motiv">https://open.spotify.com/user/encima/playlist/6Io0lA3OjfOiEBo1k6GI7q</string>
+
+
+</resources>
